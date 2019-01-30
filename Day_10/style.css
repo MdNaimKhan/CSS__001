@@ -1,0 +1,102 @@
+body{
+    
+    background-color: #666666;
+    margin: 0px;
+}
+.wrapper{
+    width:90%;
+    height: 1200px;
+    background-color: white;
+    margin:auto;
+}
+.header{
+    width:100%;
+    height: 100px;
+    background-color: #33ff33;
+}
+.header .logo{
+    width:30%;
+    height: 100%;
+    background-color: #33ffcc;
+        float:left;
+
+}
+.header .banner{
+    width:70%;
+    height: 100%;
+    background-color: blue;
+    float:left;
+}
+.menu{
+    width:100%;
+    height:50px;
+    background-color: yellow;
+    float:left;
+}
+.menu ul{
+    margin: 0px;
+    padding:0px;
+    list-style-type: none;
+    
+}
+.menu ul li{
+    float: left;
+    width:120px;
+/*   border: 1px solid;*/
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    background-color: white;
+    color:black;
+    text-align: center;
+    padding:16px 5px;
+/*    margin-right: 20px;*/
+    border-radius: 10px;
+    transition:  background-color 2s;
+}
+.menu ul li a:hover{
+    background-color: black;
+    color:white;
+}
+.content{
+    width:100%;
+    height: 750px;
+    background-color: activecaption;
+            float:left;
+
+}
+.content .leftSidebar{
+    width:20%;
+    height:100%;
+    background-color: #9900cc;
+    float:left;
+    
+}
+.content .mainContent{
+    width:60%;
+    height:100%;
+    background-color: #ff3333;
+      float:left;
+
+    
+    
+}
+.content .rightSidebar{
+    width:20%;
+    height:100%;
+    background-color: #999900;
+      float:left;
+
+    
+    
+}
+.bigFooter{
+    width:100%;
+    height:200px;
+    background-color: #006666;
+      float:left;
+
+    
+    
+}
